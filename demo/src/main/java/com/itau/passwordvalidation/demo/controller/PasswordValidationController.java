@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PasswordValidationController {
 
     @PostMapping(value = "/password-validation")
-    private boolean isValid(@RequestBody String password){
+    private boolean passwordIsValid(@RequestBody String password){
         return PasswordValidationUseCase.passwordValidation(password);
     }
 

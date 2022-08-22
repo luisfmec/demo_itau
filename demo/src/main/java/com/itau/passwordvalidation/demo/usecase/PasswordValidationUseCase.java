@@ -8,11 +8,11 @@ public class PasswordValidationUseCase {
 
     public static boolean passwordValidation(String password){
         if(Pattern.matches(pattern,password)){
-            return findSameWithin(password);
+            return findRepeatedChar(password);
         } return false;
     }
 
-    private static boolean findSameWithin(String password){
+    private static boolean findRepeatedChar(String password){
         for(int i = 0;i<password.length();i++){
             for(int j=i+1;j<password.length();j++){
                 if(password.charAt(i) == password.charAt(j))

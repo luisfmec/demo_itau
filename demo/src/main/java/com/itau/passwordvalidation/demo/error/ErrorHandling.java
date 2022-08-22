@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 @ControllerAdvice
 public class ErrorHandling {
     @ExceptionHandler(HttpMessageNotReadableException.class)
-    private ResponseEntity<Boolean> handleException(){return ResponseEntity.ok().body(Boolean.FALSE);}
+    private ResponseEntity<Boolean> handleInputException(){return ResponseEntity.ok().body(Boolean.FALSE);}
 }
