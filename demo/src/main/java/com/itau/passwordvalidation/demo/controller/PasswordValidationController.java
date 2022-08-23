@@ -10,6 +10,7 @@ public class PasswordValidationController {
 
     @PostMapping(value = "/password-validation")
     private boolean passwordIsValid(@RequestBody String password){
+        //calls static method to check whether password is valid
         return PasswordValidationUseCase.passwordValidation(password);
     }
 
