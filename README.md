@@ -39,9 +39,10 @@ O Fluxograma:
 ![image](https://user-images.githubusercontent.com/107516470/186045795-dccee330-67f2-486c-a5a3-98cf1d8e72c5.png)
 
 O Fluxograma não contempla processo de validação de regex - feito por terceiro - e nem lógica de check de duplicidade de char na string, que já foi explicado acima e está
-descrito no código.
+descrito no código. Os Patterns de regex estão explicados nos comentários do código
 
 Além disso, os testes foram separados por testes de unidade - que contém a lógica do negócio - e testes de integração - que testam a responsividade do endpoint, e claro testam
 a lógica para os cenários de true, false e exception. Para os testes, criei um enum que contempla uma senha válida e duas validas - sendo que uma destas passa pelo Pattern
-mas que falha na duplicidade de chars. Para o teste de integração, testei a exception em que o body vem null, ao não setar o .content do mockMvc.
+mas que falha na duplicidade de chars. Para o teste de integração, testei a exception em que o body vem null, ao não setar o .content do mockMvc. As nomenclaturas dos
+testes são autoexplicativas, assim como as classes, métodos e variáveis em geral.
 
