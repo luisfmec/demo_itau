@@ -31,7 +31,7 @@ frente, pois o que ficou para trás já foi validado). Tudo isso implementado co
 o programa já entende que não é uma senha valida e retorna false. Além disso, deixou-se a parte da iteração sendo a segunda parte da validação, pois consome mais tempo de processamento - 
 caso alguma condição de Pattern não seja atendida, esse será false e então não precisamos entrar nos laços de validação de chars repetidos.
 
-O Fluxograma:
+O Fluxograma
 
 
 ![image](https://user-images.githubusercontent.com/107516470/186045795-dccee330-67f2-486c-a5a3-98cf1d8e72c5.png)
