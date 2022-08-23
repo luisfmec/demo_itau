@@ -4,7 +4,7 @@ Baseando-se nas regras apresentadas pelo case, construiu-se a API presente neste
 # Instruções para executar a aplicação
 1. Clone o repositório ou baixe o projeto.
 2. Importe/Abra o projeto em sua IDE de preferência.
-3. Baixe as dependências do Maven
+3. Baixe as dependências do projeto (via Maven)
 4. Já em sua IDE, abra a classe DemoApplication.java, clique com o botão direito e mande executar(geralmente a opção Run. Obs: não é necessário selecionar um perfil).
 5. O endpoint está exposto em http://localhost:8080/password-validation
   
