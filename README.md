@@ -3,9 +3,9 @@ Baseando-se nas regras apresentadas pelo case, construiu-se a API presente neste
 
 # Instruções para executar a aplicação
 1. Clone o repositório ou baixe o projeto.
-2. Importe o projeto na sua IDE de preferência
+2. Importe o projeto na sua IDE de preferência.
 3. Caso sua IDE não instale e nem builde o projeto e dependências, será necessário baixá-las e instalá-las, além de buildar o projeto. Afim disto, entre na raiz do repositório e execute o comando mvn install ou então abra o projeto em sua IDE de preferência e faça este procedimento de maneira afim.
-4. Já em sua IDE, abra a classe DemoApplication.java, clique com o botão direito e mande executar(geralmente a opção Run. Obs: não é necessário selecionar um perfil)
+4. Já em sua IDE, abra a classe DemoApplication.java, clique com o botão direito e mande executar(geralmente a opção Run. Obs: não é necessário selecionar um perfil).
 5. O endpoint está exposto em http://localhost:8080/password-validation
   
      5.1 Exemplo de utilização via Postman
