@@ -4,13 +4,11 @@ Baseando-se nas regras apresentadas pelo case, construiu-se a API presente neste
 # Instruções para executar a aplicação
 1. Clone o repositório ou baixe o projeto.
 2. Importe o projeto na sua IDE de preferência
-3. Identifique que é um projeto Maven(irá carregar alguns recursos)
-4. Caso sua IDE não baixe automáticamente as dependências, será necessário baixá-las e instalá-las. Afim de instalar as dependências, entre na raiz do repositório e execute o 
-comando mvn install ou então abra o projeto em sua IDE de preferência e instale as dependências por lá, de maneira afim.
-5. Já em sua IDE, abra a classe DemoApplication.java, clique com o botão direito e mande executar(geralmente a opção Run. Obs: não é necessário selecionar um perfil)
-6. O endpoint está exposto em http://localhost:8080/password-validation
+3. Caso sua IDE não instale e nem builde o projeto e dependências, será necessário baixá-las e instalá-las, além de buildar o projeto. Afim disto, entre na raiz do repositório e execute o comando mvn install ou então abra o projeto em sua IDE de preferência e faça este procedimento de maneira afim.
+4. Já em sua IDE, abra a classe DemoApplication.java, clique com o botão direito e mande executar(geralmente a opção Run. Obs: não é necessário selecionar um perfil)
+5. O endpoint está exposto em http://localhost:8080/password-validation
   
-     6.1 Exemplo de utilização via Postman
+     5.1 Exemplo de utilização via Postman
     ![image](https://user-images.githubusercontent.com/107516470/186043235-a5b3ef07-6ea0-4bf9-abcf-77e4a28d70ac.png)
 
 
@@ -45,4 +43,3 @@ Além disso, os testes foram separados por testes de unidade - que contém a ló
 a lógica para os cenários de true, false e exception. Para os testes, criei um enum que contempla uma senha válida e duas validas - sendo que uma destas passa pelo Pattern
 mas que falha na duplicidade de chars. Para o teste de integração, testei a exception em que o body vem null, ao não setar o .content do mockMvc. As nomenclaturas dos
 testes são autoexplicativas, assim como as classes, métodos e variáveis em geral.
-
